@@ -1,0 +1,34 @@
+                    .buttoncarro {
+                        text-decoration: none;
+                        transition-duration: 0.4s;
+                        color: rgb(0, 0, 0);
+                    }
+                    
+                    .Usuario {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: left;
+                    }
+                    
+                    .row {
+                        border: 1px solid rgb(158, 12, 146);
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                    }
+                    
+                    .Cuerpo {
+                        background-image: url(../img/fondo\ blancooo.jpg);
+                        background-size: 100% 100%;
+                    }
+                    
+                    table {
+                        width: 100%;
+                        text-align: justify;
+                        background-color: bisque;
+                    }
+                    
+                    .col {
+                        border: solid 1p black;
+                        display: flex;
+                    }

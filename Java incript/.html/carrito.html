@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <title>Document</title>
+</head>
+
+<body class="Cuerpo">
+    <h1>Bandidas Intimates</h1>
+
+    <div>
+        <h2>¡No te pierdas nuestras ofertas!</h2>
+        <h4> Somos fabricantes. Sin necesidad de venir, recibirás tu pedido en tu casa de la manera más rápida y segura!!</h4>
+    </div>
+
+    <div class="Usuario">
+        <form id="Formulariodeingresos">
+            <H2>Ingrese</H2>
+            Nombre: <input type="name"> Edad: <input type="old">
+            <input type="submit" value="send">
+        </form>
+    </div>
+
+    <div class="Contenedo">
+        <template class="productos" id="productos">
+
+        <div class="cajaDeproducto">
+            <h3 id="title"></h3>
+            <img class="cajaDeproducto" id="imagen">
+            <h2 id="precio"></h2>
+            <button class="buttoncarro">Agregar al carrito</button>
+        </div>
+    </template>
+
+        <div class="row" id="cajas"></div>
+
+    </div>
+
+
+    <table class="tabla">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Item</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Acción</th>
+                <th scope="col">Valor Unitario</th>
+            </tr>
+        </thead>
+        <tbody id="items"></tbody>
+        <tfoot>
+            <tr id="footer">
+                <th>Carrito vacío - comience a comprar!</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="row" id="cajas"></div>
+
+    <template id="Templatecarrito">
+        <tr>
+          <th scope="row">id</th>
+          <td>Café</td>
+          <td>1</td>
+          <td>
+              <button class="btnsuma">
+                  +
+              </button>
+              <button class="btnresta">
+                  -
+              </button>
+          </td>
+          <td>$ <span>500</span></td>
+        </tr>
+      </template>
+
+
+
+    <template id="templatefooter">
+        <th scope="row" colspan="2">Total productos</th>
+        <td>10</td>
+        <td>
+            <button class="btnvaciar" id="vaciar-carrito">
+                vaciar todo
+            </button>
+        </td>
+        <td class="font-weight-bold">$ <span>5000</span></td>
+    </template>
+
+
+
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="..//js/app.js"></script>
+
+</html>
